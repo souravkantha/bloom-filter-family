@@ -2,7 +2,6 @@ package com.bloomfamily.bloomfilter.impl;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 import org.apache.commons.codec.digest.MurmurHash3;
 
@@ -100,5 +99,6 @@ public class CountingBloomFilter implements BloomFilter {
 		return true; // deletion successful
 		
 	}
+	
 	
 }
